@@ -15,7 +15,7 @@ def chat(prompt):
  
     message = completions.choices[0].text
     return message.strip()
-
+ 
 def format_message(message):
     message = message.replace("\n", " ")
     message = re.sub(" +", " ", message)
