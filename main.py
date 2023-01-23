@@ -1,7 +1,7 @@
 import openai
 import re
 # SmashyX#0017
-openai.api_key = "YOUR-API-KEY-HERE"
+openai.api_key = "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"
 
 def chat(prompt):
     completions = openai.Completion.create(
@@ -24,4 +24,4 @@ def format_message(message):
 while True:
     prompt = input("You: ")
     response = chat(prompt)
-    print(f"Bot: {format_message(response)}")
+    print(f"DaVinci: {format_message(response)}")
