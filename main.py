@@ -1,7 +1,7 @@
 import openai
 import re
 # SmashyX#0017
-openai.api_key = "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"
+openai.api_key = "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"
 
 def chat(prompt):
     completions = openai.Completion.create(
