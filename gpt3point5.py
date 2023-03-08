@@ -2,7 +2,7 @@ import openai
 import re
 import array
 
-openai.api_key = "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"
+openai.api_key = "API key here"
 
 def add_assistant_context(assistant_context):
    return{"role": "assistant", "content": assistant_context}
